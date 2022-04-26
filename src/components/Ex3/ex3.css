@@ -1,0 +1,10 @@
+.ex3-list{
+    width: 100px;
+    text-align: center;
+}
+.ex3-list li {
+    padding: 10px 0;
+    list-style: none;
+    border: 1px solid #999;
+    width: 20;
+}
