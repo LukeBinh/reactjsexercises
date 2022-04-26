@@ -1,0 +1,14 @@
+input[type="text"].input {
+  font-size: 15px;
+  border-radius: 5px;
+  padding: 5px;
+}
+form.form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+ul.listFruits {
+  margin-top: 15px;
+  text-align: center;
+}

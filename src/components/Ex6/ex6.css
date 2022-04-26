@@ -1,0 +1,19 @@
+.button {
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  background: linear-gradient(to left, #bdfff3, #4ac29a);
+
+  font-size: 15px;
+  font-weight: 600;
+  transition: color 200ms linear;
+}
+.button:hover {
+  color: white;
+}
+.inputEx6 {
+  color: grey;
+  padding: 5px 20px;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
