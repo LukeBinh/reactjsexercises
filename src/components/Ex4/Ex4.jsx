@@ -1,13 +1,7 @@
-<<<<<<< HEAD
 import React, { useState } from "react";
 import "./ex4.css";
 
 // export interface DataTypes {}
-=======
-import React, {useState } from 'react'
-import './ex4.css'
->>>>>>> c36d92027dfe29485603b0d1130b93eaadcb5fd7
-
 const Ex4 = () => {
   const [isCheckedList, setIsCheckedList] = useState([]);
 
