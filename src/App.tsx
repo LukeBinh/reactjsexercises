@@ -8,9 +8,10 @@ import {
   Ex3,
   Ex4,
   Ex5,
+  Ex6,
   Ex7,
   Ex8,
-  Ex6,
+  Ex9,
   Ex10,
 } from "./components/index";
 
@@ -28,6 +29,7 @@ function App() {
           <Route path="/ex6" element={<Ex6 />} />
           <Route path="/ex7" element={<Ex7 />} />
           <Route path="/ex8" element={<Ex8 />} />
+          <Route path="/ex9" element={<Ex9 />} />
           <Route path="/ex10" element={<Ex10 />} />
         </Routes>
       </BrowserRouter>
