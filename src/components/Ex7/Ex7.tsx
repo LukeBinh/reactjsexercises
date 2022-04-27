@@ -1,11 +1,10 @@
-import React, { useState } from "react";
+import React from "react";
 import { db } from "../../db";
 import "./ex7.css";
 function Ex7() {
-  const [listBox, setListBox] = useState(db);
   return (
     <div className="container flex">
-      {listBox.map((item) => (
+      {db.map((item) => (
         <div className="box" key={item.id}>
           <div className="info">
             <p className="setup">{item.setup}</p>

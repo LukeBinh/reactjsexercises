@@ -1,11 +1,11 @@
-import React from 'react'
+import React from "react";
 
 const Ex1 = () => {
   return (
-    <div className='container'>
-        <h1>Hello World</h1>
+    <div className="container">
+      <h1>Hello World</h1>
     </div>
-  )
-}
+  );
+};
 
-export default Ex1
+export default Ex1;
