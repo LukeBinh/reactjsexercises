@@ -1,8 +1,9 @@
-import React, { useState } from "react";
+import React from "react";
 import { db } from "../../db";
 import "./ex7.css";
+
 function Ex7() {
-  const [listBox, setListBox] = useState(db);
+  const listBox = db;
   return (
     <div className="container flex">
       {listBox.map((item) => (

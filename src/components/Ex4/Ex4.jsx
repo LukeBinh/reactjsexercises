@@ -1,4 +1,4 @@
-import React, { useEffect, useLayoutEffect, useState } from 'react'
+import React, {useState } from 'react'
 import './ex4.css'
 
 const Ex4 = () => {

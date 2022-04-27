@@ -1,0 +1,29 @@
+.ex9 .img-box{
+     display: flex; 
+     justify-content: center; 
+    position: relative;
+} 
+
+.ex9 img{
+    width: 800px;
+    height: 450px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.ex9 i{
+    position: absolute;
+    font-size: 40px;
+    color: #fff;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.left{
+    left: 100px;
+}
+
+.right{
+    right: 100px;
+}

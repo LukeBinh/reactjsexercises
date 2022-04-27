@@ -7,4 +7,5 @@ export { default as Ex5 } from "./Ex5/Ex5";
 export { default as Ex6 } from "./Ex6/Ex6";
 export { default as Ex7 } from "./Ex7/Ex7";
 export { default as Ex8 } from "./Ex8/Ex8";
+export { default as Ex9 } from "./Ex9/Ex9";
 export { default as Ex10 } from "./Ex10/Ex10";

@@ -32,6 +32,9 @@ const Header = () => {
           <Link to="/ex8">Exercise 8</Link>
         </li>
         <li className="header-bar-item">
+          <Link to="/ex9">Exercise 9</Link>
+        </li>
+        <li className="header-bar-item">
           <Link to="/ex10">Exercise 10</Link>
         </li>
       </ul>
