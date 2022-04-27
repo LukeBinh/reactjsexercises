@@ -1,0 +1,20 @@
+div.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+.flexcol {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 15px;
+
+  border-radius: 10px;
+  background-color: red;
+  box-shadow:rgba(0, green, blue, alpha)
+}
+.name {
+  font-weight: 700;
+  color: black;
+}
