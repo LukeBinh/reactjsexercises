@@ -7,6 +7,9 @@ const Header = () => {
   return (
     <div className="header-bar container">
       <ul className="header-bar-menu">
+      <li className="header-bar-item">
+          <Link to="/">Home</Link>
+        </li>
         <li className="header-bar-item">
           <Link to="/ex1">Exercise 1</Link>
         </li>

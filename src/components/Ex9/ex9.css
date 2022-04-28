@@ -20,6 +20,19 @@
     cursor: pointer;
 }
 
+.ex9 .sub-img{
+    position: absolute;
+    bottom: 0;
+}
+
+.ex9 .sub-img img{
+    width: 100px;
+    height: 100px;
+    margin: 0 5px;
+    padding: 5px;
+    background-color: #fff;
+    cursor: pointer;
+}
 .left{
     left: 100px;
 }

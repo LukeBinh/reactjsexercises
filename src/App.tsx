@@ -21,6 +21,7 @@ function App() {
       <BrowserRouter>
         <Header />
         <Routes>
+          <Route path="/" element={<div className="container"><h1>Home Page</h1></div>} />
           <Route path="/ex1" element={<Ex1 />} />
           <Route path="/ex2" element={<Ex2 />} />
           <Route path="/ex3" element={<Ex3 />} />
