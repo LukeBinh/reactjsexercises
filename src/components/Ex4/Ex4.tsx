@@ -36,7 +36,7 @@ const Ex4 = () => {
       <p>
         Items checked are:{" "}
         {isCheckedList.map((item, index) => (
-          <span key={index}>{item}</span>
+          <span key={index}>{item} </span>
         ))}{" "}
       </p>
     </div>
