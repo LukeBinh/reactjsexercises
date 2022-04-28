@@ -1,11 +1,11 @@
 import React, { useState } from "react";
 import "./ex4.css";
 
-// export interface DataTypes {}
-const Ex4 = () => {
-  const [isCheckedList, setIsCheckedList] = useState([]);
 
-  const isCheck = (e) => {
+const Ex4 = () => {
+  const [isCheckedList, setIsCheckedList] = useState<string[]>([]);
+
+  const isCheck = (e: React.ChangeEvent<HTMLInputElement>) => {
     if (e.target.checked === true) {
       return setIsCheckedList([...isCheckedList, e.target.value]);
     }

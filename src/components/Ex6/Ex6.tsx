@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./ex6.css";
+
 function EX6() {
   const [firstName, setFirstName] = useState("");
   const [lastName, setLastName] = useState("");

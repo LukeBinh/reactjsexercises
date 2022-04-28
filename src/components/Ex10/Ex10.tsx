@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import Skeleton from "@mui/material/Skeleton";
 import "./ex10.css";
 
-interface dataType {
+type dataType = {
   id: string;
   first_name: string;
   last_name: string;
@@ -10,7 +10,7 @@ interface dataType {
   employment: {
     title: string;
   };
-}
+};
 
 function Ex10() {
   const [listUser, setListUser] = useState<Array<dataType>>([]);
@@ -48,11 +48,11 @@ function Ex10() {
         {listUser.map((user) =>
           loading ? (
             <Skeleton
+              key={user.id}
               animation="wave"
               variant="rectangular"
               width={500}
               height={200}
-            
             />
           ) : (
             <div key={user.id} className="flexcol">

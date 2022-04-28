@@ -2,6 +2,7 @@ import React from "react";
 import { db } from "../../db";
 import "./ex7.css";
 
+
 function Ex7() {
   return (
     <div className="container flex">
@@ -16,5 +17,4 @@ function Ex7() {
     </div>
   );
 }
-
 export default Ex7;

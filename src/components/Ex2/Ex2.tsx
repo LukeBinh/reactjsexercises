@@ -1,6 +1,6 @@
 import React from "react";
-import "./ex2.css";
 import skypic from "../image/sky.jpg";
+import "./ex2.css";
 
 const Ex2 = () => {
   return (

@@ -7,6 +7,11 @@ const listFruits = [
   "Mango",
   "Pineapple",
   "Watermelon",
+  "tay to",
+  "đồ nướng",
+  "chiên xào",
+  "cá con",
+  "cá mập",
 ];
 function Ex8() {
   const [valueInput, setValueInput] = useState("");
